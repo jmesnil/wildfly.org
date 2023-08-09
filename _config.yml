@@ -19,8 +19,8 @@ title: WildFly
 #  Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
-#baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wildfly.org/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/wildfly.org/" # the subpath of your site, e.g. /blog
+url: "https://jmesnil.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: WildFlyAS
 github_username:  wildfly
 chatroom_url: "https://wildfly.zulipchat.com/"
