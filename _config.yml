@@ -29,6 +29,7 @@ forum_url: "https://groups.google.com/forum/#!forum/wildfly"
 # is released, but we still want to advertise the newest minor or major.
 current_release_index: 0
 
+incremental: false
 # Build settings
 markdown: kramdown
 theme: minima
