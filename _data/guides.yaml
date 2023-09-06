@@ -19,3 +19,7 @@ categories:
       - title: Use Prospero
         url: /guides/use-prospero
         description: An introduction to the Prospero usage.
+      - title:  Deploy a WildFly cluster using Ansible
+        url: /guides/cluster-ansible
+        description: A quick overview on how to use the Ansible collection for WildFly to automate a cluster deployment
+
