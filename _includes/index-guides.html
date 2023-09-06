@@ -2,8 +2,13 @@
   <h1 class="title">{{ page.title }}</h1>
 </div>
 
-<div class="grid-wrapper guides">
+<div class="guides">
 
+  <ul>
+    {% for item in site.data["guides"].categories %}
+      <li><a href="#{{ item.cat-id }}">{{ item.category }}</a></li>
+    {% endfor %}
+  </ul>
   <div class="grid__item width-12-12 click-cards">
     <ul id="list">
     {% for item in site.data["guides"].categories %}
