@@ -1,0 +1,8 @@
+---
+layout: guide
+---
+
+== Use Eclipse MicroProfile Config
+:summary: Use Eclipse MicroProfile Config with WildFly
+
+In this guide you will learn how to setup and configure Eclipse MicroProfile Config with WildFly

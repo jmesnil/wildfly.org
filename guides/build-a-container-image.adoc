@@ -1,0 +1,8 @@
+---
+layout: guide
+---
+
+== Build a Container Image with WildFly
+:summary: Build a Container Image with WildFly
+
+In this guide you will learn how to build a Container image with _Wild_Fly to deploy in a container platform.

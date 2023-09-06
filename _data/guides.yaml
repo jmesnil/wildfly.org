@@ -1,0 +1,11 @@
+
+---  # document start
+categories:
+  - category: Getting Started
+    guides:
+      - title: Use MicroProfile Config With WildFly
+        url: /guides/use-microprofile-config
+        description: Discover how to use MicroProfile Config With WildFly.
+      - title: Build a Container Image with WildFly
+        url: /guides/build-a-container-image
+        description: Learn how to build a Container Image with _Wild_Fly.

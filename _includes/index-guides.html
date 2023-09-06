@@ -1,0 +1,31 @@
+<div>
+  <h1 class="title">{{ page.title }}</h1>
+</div>
+
+<div class="grid-wrapper guides">
+
+  <div class="grid__item width-12-12 click-cards">
+    <ul id="list">
+    {% for item in site.data["guides"].categories %}
+      <li>
+        <h3 id="{{ item.cat-id }}">{{ item.category }}</h3>
+        <ul class="grid-wrapper list-item">
+        {% for guide in item.guides %}
+          <li class="card">
+              <a href="{{site.baseurl}}{{ guide.url }}">{{ guide.title}}</a>
+              <div class="description">{{ guide.description | markdownify }}</div>
+              <div class="keywords">{{ guide.keywords }}</div>
+              {% if guide.origin == 'quarkiverse-hub' %}
+              <div class="origin">
+                  <img src="/assets/images/quarkiverse_icon_default.svg" width="25" height="25" />
+                  <span>Quarkiverse Hub</span>
+              </div>
+              {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
