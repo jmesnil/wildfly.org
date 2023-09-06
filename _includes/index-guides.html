@@ -9,7 +9,7 @@
     {% for item in site.data["guides"].categories %}
       <li>
         <h3 id="{{ item.cat-id }}">{{ item.category }}</h3>
-        <ul class="grid-wrapper list-item">
+        <ul class="list-item">
         {% for guide in item.guides %}
           <li class="card">
               <a href="{{site.baseurl}}{{ guide.url }}">{{ guide.title}}</a>

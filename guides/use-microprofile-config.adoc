@@ -6,3 +6,21 @@ layout: guide
 :summary: Use Eclipse MicroProfile Config with WildFly
 
 In this guide you will learn how to setup and configure Eclipse MicroProfile Config with WildFly
+
+=== Import the Maven Dependency
+
+[source,xml]
+.pom.xml
+----
+<dependency>
+org.eclipse.microprofile-config
+</dependency>
+----
+
+=== Use the MicroProfile Config API
+
+[source,java]
+.GettingStartedEndpoint.java
+----
+package foo;
+----
